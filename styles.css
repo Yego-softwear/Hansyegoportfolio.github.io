@@ -1,27 +1,44 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f2f6fa;
+  color: #333;
+  line-height: 1.6;
 }
 header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-}
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+  background: #005f99;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
 }
 section {
-    padding: 2rem;
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+.projects .project {
+  background: #fff;
+  padding: 1rem;
+  border-left: 5px solid #007acc;
+  margin: 1rem 0;
+}
+.testimonial-slider {
+  background: #fff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+.testimonial {
+  display: none;
+}
+.testimonial.active {
+  display: block;
+}
+footer {
+  background: #003e63;
+  color: white;
+  text-align: center;
+  padding: 1rem;
 }

@@ -1,56 +1,123 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Hans Kiprop Yego | Bubble Developer Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hans Kiprop Yego | Bubble & No-Code Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #e0f7fa, #e1f5fe);
+      color: #333;
+      overflow-x: hidden;
+    }
+    header {
+      background: rgba(0, 0, 50, 0.85);
+      color: white;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    header p {
+      font-size: 1.25rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .section h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+      color: #0277bd;
+    }
+    .projects {
+      display: flex;
+      overflow-x: auto;
+      gap: 1.5rem;
+      padding: 1rem;
+    }
+    .project-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      min-width: 300px;
+      padding: 1.5rem;
+      flex-shrink: 0;
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+    .project-card h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      color: #01579b;
+    }
+    .project-card p {
+      font-size: 0.95rem;
+    }
+    footer {
+      background: #004d40;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-
   <header>
     <h1>Hans Kiprop Yego</h1>
-    <p>Expert No-Code & Bubble Developer | MVPs, SaaS, Web & Mobile Apps</p>
+    <p>Bubble & No-Code Developer | UI/UX Specialist | MVP to Scale-Ready Builder</p>
   </header>
 
-  <section class="about">
+  <section class="section">
     <h2>About Me</h2>
-    <p>I’m a dedicated Bubble developer with a passion for building scalable, beautiful, and robust web apps. I’ve helped startups, founders, and businesses transform ideas into functional, revenue-ready products.</p>
+    <p style="text-align: center; max-width: 800px; margin: auto;">
+      I'm a dedicated and innovative Bubble developer passionate about transforming ideas into live, scalable applications. With experience building real estate platforms, testimonial systems, client dashboards, and startup MVPs, I help businesses and entrepreneurs ship faster, cleaner, and smarter. Let’s build your vision — no code required.
+    </p>
   </section>
 
-  <section class="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Car Track Kenya</h3>
-      <p>A car tracking system with real-time monitoring, GPS logs, and user roles. Built for Lovable.</p>
-      <a href="https://car-track-kenya.lovable.app/" target="_blank">View Project</a>
+  <section class="section">
+    <h2>Featured Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Car Track Kenya</h3>
+        <p>A real-time car tracking platform for clients and drivers. Built for responsiveness and intuitive flow.</p>
+      </div>
+      <div class="project-card">
+        <h3>Real Estate Income Calculator</h3>
+        <p>Interactive rental profitability tool for landlords and investors, built to drive actionable insights.</p>
+      </div>
+      <div class="project-card">
+        <h3>Testimonial Management Tool</h3>
+        <p>Capture, display, and manage reviews from clients with widgets, dashboards, and API integration.</p>
+      </div>
     </div>
   </section>
 
-  <section class="video">
-    <h2>Video Introduction</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-  </section>
-
-  <section class="testimonials">
-    <h2>Testimonials</h2>
-    <div class="testimonial-slider">
-      <div class="testimonial active">“Hans is a genius! Delivered exactly what we needed — and fast.”</div>
-      <div class="testimonial">“He transformed our MVP into a launch-ready product. Great communication too!”</div>
-    </div>
-  </section>
-
-  <section class="calendly">
-    <h2>Book a Call</h2>
-    <div class="calendly-inline-widget" data-url="https://calendly.com/hanskiprop15" style="min-width:320px;height:630px;"></div>
-    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  <section class="section">
+    <h2>Contact Me</h2>
+    <p style="text-align: center;">
+      Ready to build together? <br>Email: <strong>hanskiprop15@gmail.com</strong> <br> LinkedIn: <a href="https://linkedin.com/in/hans-yego-03004b245" target="_blank">View Profile</a>
+    </p>
   </section>
 
   <footer>
-    <p>© 2025 Hans Kiprop Yego. All rights reserved.</p>
+    &copy; 2025 Hans Kiprop Yego — Built with 💙 and no-code magic.
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
-
